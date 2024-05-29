@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Nusrat_Automation_Tests_final" verbose="1" thread-count="1">
+    <test name="samsung.com">
+        <classes>
+            <class name="automation_test.samsung.com.ShopAllPhone"/>
+        </classes>
+    </test>
+
+</suite>
