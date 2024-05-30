@@ -16,7 +16,7 @@ public class GalaxyS24 extends NavigationBar {
     private final By ClickOnnoTradeIn = By.xpath("//div[@id='card-label']/bold");
     private final By ClickOnNoCoverage = By.xpath("//div[1]/div[@id='atom_option']");
     private final By ClickOnContinueButton = By.xpath("//button[contains(text(),'Contin')][@id='continue_btn']");
-    private final By UnlockedText = By.xpath("//div[3]/span[@data-testid='atom_label']");
+    //private final By UnlockedText = By.xpath("//div[3]/span[@data-testid='atom_label']");
 
 
     private static final Logger LOGGER = LogManager.getLogger(GalaxyS24.class);

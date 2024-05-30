@@ -1,10 +1,11 @@
-package page_objects;
+package page_objects;//package page_objects;
 
 import command_providers.ActOn;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import page_objects.NavigationBar;
 
 
 public class GalaxyS24Unlocked extends NavigationBar {
@@ -14,6 +15,7 @@ public class GalaxyS24Unlocked extends NavigationBar {
     public GalaxyS24Unlocked(WebDriver driver) {
         super(driver);
     }
+
     public GalaxyS24Unlocked validateGalaxyS24UnlockedIsLoaded(String expectedResults) {
         LOGGER.debug("validating actual results is :" + expectedResults);
         ActOn.wait(driver, GalaxyS24Unlocked).waitForElementToBeVisible();
@@ -22,9 +24,10 @@ public class GalaxyS24Unlocked extends NavigationBar {
         return this;
 
     }
+}
 
 
 
-    }
+
 
 

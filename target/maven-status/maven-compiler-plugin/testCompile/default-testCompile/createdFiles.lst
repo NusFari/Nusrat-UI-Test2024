@@ -1,0 +1,8 @@
+page_objects\ShopAllPhone.class
+page_objects\NavigationBar.class
+page_objects\GalaxyS24.class
+page_objects\GalaxyS24Unlocked.class
+automation_test\BaseClass.class
+automation_test\samsung\com\ShopAllPhone.class
+automation_test\homedepot\com\homedepot.class
+page_objects\GuestCheckout.class

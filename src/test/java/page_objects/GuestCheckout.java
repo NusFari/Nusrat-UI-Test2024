@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 public class GuestCheckout extends NavigationBar{
 
-    private final By EstimatedTotal = By.xpath("//div[2]/p[1][@class='os-price-label']");
+    private final By EstimatedTotal = By.xpath("//div[5]/p[1][contains(text(),'Estimated total')]");
     private static final Logger LOGGER = LogManager.getLogger(GalaxyS24.class);
     public GuestCheckout(WebDriver driver){
         super(driver);

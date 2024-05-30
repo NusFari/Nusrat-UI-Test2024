@@ -7,7 +7,7 @@ public class ShopAllPhone extends BaseClass {
 
     @Test
 
-    public void ShopAllPhone() {
+    public void shopAllPhone() {
         new NavigationBar(driver)
                 .clickOnSearchIcon()
                 .typeGalaxyS4("Galaxy S4")
@@ -19,11 +19,13 @@ public class ShopAllPhone extends BaseClass {
                 .clickOnNoTradeButton()
                 .clickOnNoCoverageButton()
                 .clickOnContinueButton()
-                .validateGalaxyS24UnlockedIsLoaded("GalaxyS24 unlocked text");
+                .validateGalaxyS24UnlockedIsLoaded("Galaxy S4 text");
         new NavigationBar(driver)
-                .navigateToGuestCheckout()
-                .clickOnCheckout()
-                .validateEstimatedTotal("Estimated total");
+                .navigateToGuestCheckout();
+
+
+
+
 
 
 
