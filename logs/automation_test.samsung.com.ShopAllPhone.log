@@ -1,10 +1,10 @@
-[2024-05-30T23:29:55,285][INFO ][main] Running the automation test in remote Environment:'http://13.58.229.161:4444/wd/hub and using Chrome Browser
-[2024-05-30T23:29:56,380][INFO ][main] ---------test:automation_test.samsung.com.ShopAllPhone----------
-[2024-05-30T23:29:56,381][DEBUG][main] Opening the URL:https://www.samsung.com/us/
-[2024-05-30T23:29:58,367][DEBUG][main] wait for page to load
-[2024-05-30T23:30:00,028][DEBUG][main] Typing Galaxy S4:Galaxy S4
-[2024-05-30T23:30:04,839][DEBUG][main] waiting for page to load
-[2024-05-30T23:30:06,521][DEBUG][main] validating actualResults is :ALL
-[2024-05-30T23:30:07,012][DEBUG][main] clicking on the galaxy s24 phone
-[2024-05-30T23:30:08,788][DEBUG][main] Waiting for GalaxyS24 page to load
-[2024-05-30T23:30:09,923][INFO ][main] ---------test End:automation_test.samsung.com.ShopAllPhone----------
+[2024-05-31T00:26:41,032][INFO ][main] Running the automation test in remote Environment:'http://13.58.229.161:4444/wd/hub and using Chrome Browser
+[2024-05-31T00:26:43,697][INFO ][main] ---------test:automation_test.samsung.com.ShopAllPhone----------
+[2024-05-31T00:26:43,697][DEBUG][main] Opening the URL:https://www.samsung.com/us/
+[2024-05-31T00:26:46,238][DEBUG][main] wait for page to load
+[2024-05-31T00:26:48,210][DEBUG][main] Typing Galaxy S4:Galaxy S4
+[2024-05-31T00:26:52,571][DEBUG][main] waiting for page to load
+[2024-05-31T00:26:54,670][DEBUG][main] validating actualResults is :ALL
+[2024-05-31T00:26:55,216][DEBUG][main] clicking on the galaxy s24 phone
+[2024-05-31T00:26:56,720][DEBUG][main] Waiting for GalaxyS24 page to load
+[2024-05-31T00:26:58,132][INFO ][main] ---------test End:automation_test.samsung.com.ShopAllPhone----------
