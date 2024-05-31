@@ -1,14 +1,10 @@
-[2024-05-30T19:02:59,287][INFO ][main] ---------test:automation_test.samsung.com.ShopAllPhone----------
-[2024-05-30T19:02:59,298][DEBUG][main] Opening the URL:https://www.samsung.com/us/
-[2024-05-30T19:03:01,307][DEBUG][main] wait for page to load
-[2024-05-30T19:03:01,587][DEBUG][main] Typing Galaxy S4:Galaxy S4
-[2024-05-30T19:03:01,721][DEBUG][main] waiting for page to load
-[2024-05-30T19:03:03,453][DEBUG][main] validating actualResults is :ALL
-[2024-05-30T19:03:03,759][DEBUG][main] clicking on the galaxy s24 phone
-[2024-05-30T19:03:04,789][DEBUG][main] Waiting for GalaxyS24 page to load
-[2024-05-30T19:03:05,172][DEBUG][main] click on the no trade in button
-[2024-05-30T19:03:05,377][DEBUG][main] click on the no coverage button
-[2024-05-30T19:03:05,421][DEBUG][main] Clicking on the Continue Button
-[2024-05-30T19:03:05,479][DEBUG][main] validating actual results is :Galaxy S4 text
-[2024-05-30T19:03:05,538][DEBUG][main] clicking on skip add icon
-[2024-05-30T19:03:08,421][INFO ][main] ---------test End:automation_test.samsung.com.ShopAllPhone----------
+[2024-05-30T23:29:55,285][INFO ][main] Running the automation test in remote Environment:'http://13.58.229.161:4444/wd/hub and using Chrome Browser
+[2024-05-30T23:29:56,380][INFO ][main] ---------test:automation_test.samsung.com.ShopAllPhone----------
+[2024-05-30T23:29:56,381][DEBUG][main] Opening the URL:https://www.samsung.com/us/
+[2024-05-30T23:29:58,367][DEBUG][main] wait for page to load
+[2024-05-30T23:30:00,028][DEBUG][main] Typing Galaxy S4:Galaxy S4
+[2024-05-30T23:30:04,839][DEBUG][main] waiting for page to load
+[2024-05-30T23:30:06,521][DEBUG][main] validating actualResults is :ALL
+[2024-05-30T23:30:07,012][DEBUG][main] clicking on the galaxy s24 phone
+[2024-05-30T23:30:08,788][DEBUG][main] Waiting for GalaxyS24 page to load
+[2024-05-30T23:30:09,923][INFO ][main] ---------test End:automation_test.samsung.com.ShopAllPhone----------
