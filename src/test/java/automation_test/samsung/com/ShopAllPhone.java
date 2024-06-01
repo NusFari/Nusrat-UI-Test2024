@@ -10,16 +10,16 @@ public class ShopAllPhone extends BaseClass {
     public void shopAllPhone() {
         new NavigationBar(driver)
                 .clickOnSearchIcon()
-                .typeGalaxyS4("Galaxy S4")
+                .typeGalaxyS24("Galaxy S24")
                 .clickingOnSearchButton()
                 .validateShopAllPageIsLoaded("ALL");
         new NavigationBar(driver)
                 .navigateToGalaxyS24()
-                .watForPageToLoad("Galaxy s24 text")
+                .watForPageToLoad("Galaxy S24 text")
                 .clickOnNoTradeButton()
                 .clickOnNoCoverageButton()
                 .clickOnContinueButton()
-                .validateGalaxyS24UnlockedIsLoaded("Galaxy S4 text");
+                .validateGalaxyS24UnlockedIsLoaded("Galaxy S24 text");
         new NavigationBar(driver)
                 .navigateToGuestCheckout();
 
