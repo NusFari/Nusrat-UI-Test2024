@@ -1,1 +1,0 @@
-{"uuid":"57a4d77b-a64c-4482-a78c-74c8b13d386b","name":"automation_test.samsung.com.ShopAllPhone","children":["9d1d6bfb-391b-4b7f-a432-abbf0b6e3dc1"],"befores":[{"name":"addThread","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1717108827838,"stop":1717108828933}],"afters":[],"start":1717108827809,"stop":1717108857695}

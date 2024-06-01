@@ -1,10 +1,15 @@
-[2024-05-31T21:18:51,142][INFO ][main] Running the automation test in remote Environment:'http://3.142.51.90:4444/wd/hub and using Chrome Browser
-[2024-05-31T21:18:55,506][INFO ][main] ---------test:automation_test.samsung.com.ShopAllPhone----------
-[2024-05-31T21:18:55,506][DEBUG][main] Opening the URL:https://www.samsung.com/us/
-[2024-05-31T21:18:57,782][DEBUG][main] wait for page to load
-[2024-05-31T21:18:59,281][DEBUG][main] Typing Galaxy S4:Galaxy S4
-[2024-05-31T21:19:04,298][DEBUG][main] waiting for page to load
-[2024-05-31T21:19:06,210][DEBUG][main] validating actualResults is :ALL
-[2024-05-31T21:19:06,557][DEBUG][main] clicking on the galaxy s24 phone
-[2024-05-31T21:19:07,919][DEBUG][main] Waiting for GalaxyS24 page to load
-[2024-05-31T21:19:09,372][INFO ][main] ---------test End:automation_test.samsung.com.ShopAllPhone----------
+[2024-05-31T22:03:49,505][INFO ][main] Running the automation test in local Environment using  Chrome Browser
+[2024-05-31T22:03:50,543][INFO ][main] ---------test:automation_test.samsung.com.ShopAllPhone----------
+[2024-05-31T22:03:50,543][DEBUG][main] Opening the URL:https://www.samsung.com/us/
+[2024-05-31T22:03:52,237][DEBUG][main] wait for page to load
+[2024-05-31T22:03:52,371][DEBUG][main] Typing Galaxy S4:Galaxy S4
+[2024-05-31T22:03:52,513][DEBUG][main] waiting for page to load
+[2024-05-31T22:03:53,493][DEBUG][main] validating actualResults is :ALL
+[2024-05-31T22:03:57,258][DEBUG][main] clicking on the galaxy s24 phone
+[2024-05-31T22:03:59,869][DEBUG][main] Waiting for GalaxyS24 page to load
+[2024-05-31T22:04:00,461][DEBUG][main] click on the no trade in button
+[2024-05-31T22:04:00,725][DEBUG][main] click on the no coverage button
+[2024-05-31T22:04:00,784][DEBUG][main] Clicking on the Continue Button
+[2024-05-31T22:04:00,855][DEBUG][main] validating actual results is :Galaxy S4 text
+[2024-05-31T22:04:00,945][DEBUG][main] clicking on skip add icon
+[2024-05-31T22:04:04,490][INFO ][main] ---------test End:automation_test.samsung.com.ShopAllPhone----------
