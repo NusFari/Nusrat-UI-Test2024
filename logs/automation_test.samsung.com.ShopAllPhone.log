@@ -1,15 +1,15 @@
-[2024-05-31T22:03:49,505][INFO ][main] Running the automation test in local Environment using  Chrome Browser
-[2024-05-31T22:03:50,543][INFO ][main] ---------test:automation_test.samsung.com.ShopAllPhone----------
-[2024-05-31T22:03:50,543][DEBUG][main] Opening the URL:https://www.samsung.com/us/
-[2024-05-31T22:03:52,237][DEBUG][main] wait for page to load
-[2024-05-31T22:03:52,371][DEBUG][main] Typing Galaxy S4:Galaxy S4
-[2024-05-31T22:03:52,513][DEBUG][main] waiting for page to load
-[2024-05-31T22:03:53,493][DEBUG][main] validating actualResults is :ALL
-[2024-05-31T22:03:57,258][DEBUG][main] clicking on the galaxy s24 phone
-[2024-05-31T22:03:59,869][DEBUG][main] Waiting for GalaxyS24 page to load
-[2024-05-31T22:04:00,461][DEBUG][main] click on the no trade in button
-[2024-05-31T22:04:00,725][DEBUG][main] click on the no coverage button
-[2024-05-31T22:04:00,784][DEBUG][main] Clicking on the Continue Button
-[2024-05-31T22:04:00,855][DEBUG][main] validating actual results is :Galaxy S4 text
-[2024-05-31T22:04:00,945][DEBUG][main] clicking on skip add icon
-[2024-05-31T22:04:04,490][INFO ][main] ---------test End:automation_test.samsung.com.ShopAllPhone----------
+[2024-05-31T23:10:44,500][INFO ][main] Running the automation test in local Environment using  Chrome Browser
+[2024-05-31T23:10:47,314][INFO ][main] ---------test:automation_test.samsung.com.ShopAllPhone----------
+[2024-05-31T23:10:47,315][DEBUG][main] Opening the URL:https://www.samsung.com/us/
+[2024-05-31T23:10:48,405][DEBUG][main] wait for page to load
+[2024-05-31T23:10:48,572][DEBUG][main] Typing Galaxy S4:Galaxy S4
+[2024-05-31T23:10:48,698][DEBUG][main] waiting for page to load
+[2024-05-31T23:10:50,484][DEBUG][main] validating actualResults is :ALL
+[2024-05-31T23:10:52,078][DEBUG][main] clicking on the galaxy s24 phone
+[2024-05-31T23:10:52,961][DEBUG][main] Waiting for GalaxyS24 page to load
+[2024-05-31T23:10:53,518][DEBUG][main] click on the no trade in button
+[2024-05-31T23:10:53,743][DEBUG][main] click on the no coverage button
+[2024-05-31T23:10:53,778][DEBUG][main] Clicking on the Continue Button
+[2024-05-31T23:10:53,857][DEBUG][main] validating actual results is :Galaxy S4 text
+[2024-05-31T23:10:53,946][DEBUG][main] clicking on skip add icon
+[2024-05-31T23:10:57,255][INFO ][main] ---------test End:automation_test.samsung.com.ShopAllPhone----------

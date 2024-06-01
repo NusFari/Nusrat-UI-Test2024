@@ -1,1 +1,5 @@
 .idea
+logs
+allure-results
+screenshots
+target
