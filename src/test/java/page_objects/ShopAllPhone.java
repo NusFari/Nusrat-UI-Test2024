@@ -7,10 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class ShopAllPhone extends NavigationBar {
-    private final By All = By.id("ALL");
+    private final By All=By.id("ALL");
 
     //private final By SaveUp = By.xpath("//h1[contains(text(),'Save up to ')]");
-    private static final Logger LOGGER = LogManager.getLogger(ShopAllPhone.class);
+    private static final Logger LOGGER=LogManager.getLogger(ShopAllPhone.class);
 
     public ShopAllPhone(WebDriver driver) {
         super(driver);
@@ -18,8 +18,8 @@ public class ShopAllPhone extends NavigationBar {
 
 
     public ShopAllPhone validateShopAllPageIsLoaded(String expectedResults) {
-        LOGGER.debug("validating actualResults is :" + expectedResults);
-        ActOn.wait(driver, All).waitForElementToBeVisible();
+        LOGGER.debug("validating actualResults is :"+expectedResults);
+        ActOn.wait(driver,All).waitForElementToBeVisible();
         //String actualResults = ActOn.element(driver, All).getTextValue();
         return this;
 

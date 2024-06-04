@@ -15,7 +15,7 @@ public class ElementAssertions {
     public void elementIsDisplayed()throws Exception{
         Error error=null;
 
-        boolean displayed= driver.findElement(locator).isDisplayed();
+        boolean displayed=driver.findElement(locator).isDisplayed();
         if(!displayed){
             throw new Exception("Element is not displayed for the locator"+locator);
         }

@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 public class Selenium_Grid_Edge1 {
-    private static final Logger LOGGER= LogManager.getLogger(Selenium_Grid_Edge1.class);
+    private static final Logger LOGGER=LogManager.getLogger(Selenium_Grid_Edge1.class);
 
     @Test
     public void executeInAwsDocker(){

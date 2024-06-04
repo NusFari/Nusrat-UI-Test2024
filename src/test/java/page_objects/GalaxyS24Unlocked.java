@@ -9,16 +9,16 @@ import page_objects.NavigationBar;
 
 
 public class GalaxyS24Unlocked extends NavigationBar {
-    private final By GalaxyS24Unlocked = By.xpath("//div[3]/span[@data-testid='atom_label']");
-    private static final Logger LOGGER = LogManager.getLogger(GalaxyS24Unlocked.class);
+    private final By GalaxyS24Unlocked=By.xpath("//div[3]/span[@data-testid='atom_label']");
+    private static final Logger LOGGER=LogManager.getLogger(GalaxyS24Unlocked.class);
 
     public GalaxyS24Unlocked(WebDriver driver) {
         super(driver);
     }
 
     public GalaxyS24Unlocked validateGalaxyS24UnlockedIsLoaded(String expectedResults) {
-        LOGGER.debug("validating actual results is :" + expectedResults);
-        ActOn.wait(driver, GalaxyS24Unlocked).waitForElementToBeVisible();
+
+        ActOn.wait(driver,GalaxyS24Unlocked).waitForElementToBeVisible();
         //String actualResults = ActOn.element(driver, GalaxyS24Unlocked).getTextValue();
         //Assert.assertEquals(actualResults, expectedResults, "Expected results is failed to match");
         return this;

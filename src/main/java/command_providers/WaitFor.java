@@ -10,17 +10,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class WaitFor {
-    private static final Logger LOGGER = LogManager.getLogger(WaitFor.class);
+    private static final Logger LOGGER=LogManager.getLogger(WaitFor.class);
     private WebDriver driver;
     private By locator;
 
     public WaitFor(WebDriver driver, By locator) {
-        this.driver = driver;
-        this.locator = locator;
+        this.driver=driver;
+        this.locator=locator;
     }
 
     public WaitFor waitForElementToBeVisible() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         return this;
     }

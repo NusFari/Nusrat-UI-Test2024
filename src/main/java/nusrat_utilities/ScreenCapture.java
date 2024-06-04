@@ -12,10 +12,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ScreenCapture {
-    private static final Logger LOGGER = LogManager.getLogger(ScreenCapture.class);
+    private static final Logger LOGGER=LogManager.getLogger(ScreenCapture.class);
     public static void getScreenShot(WebDriver driver) {
-        String fileName = (new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss")).format(new Date());
-        File screenshotFile = (File)((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        String fileName=(new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss")).format(new Date());
+        File screenshotFile=(File)((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 
         try {
             FileUtils.copyFile(screenshotFile, new File("screenshot/" + fileName + ".png"));

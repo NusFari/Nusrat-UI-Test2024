@@ -26,7 +26,7 @@ public class DriverFactory {
     ThreadLocal<WebDriver> driver=ThreadLocal.withInitial(() -> {
         String environment =System.getProperty("environment")==null?"local":System.getProperty("environment");
         String browser=System.getProperty("browser")==null?"chrome":System.getProperty("browser");
-        URL gridUrl= null;
+        URL gridUrl=null;
 
         try{
             gridUrl=new URL(ReadConfigFiles.getPropertyValues("GridUrl"));
