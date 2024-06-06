@@ -67,16 +67,14 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M6</version>
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>snapshots</name>
+            <url>http://3.138.197.130:8081/repository/ui-core-automation-tests/</url>
+        </repository>
+    </distributionManagement>
+
 </project>

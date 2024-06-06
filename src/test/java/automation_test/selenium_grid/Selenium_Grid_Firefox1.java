@@ -10,7 +10,7 @@ public class Selenium_Grid_Firefox1 {
     private static final Logger LOGGER=LogManager.getLogger(Selenium_Grid_Firefox1.class);
     @Test
     public void executeInAwsDocker(){
-        WebDriver driver= DriverFactory.getInstance().getDriver();
+        WebDriver driver=DriverFactory.getInstance().getDriver();
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
         LOGGER.info(driver.getTitle());

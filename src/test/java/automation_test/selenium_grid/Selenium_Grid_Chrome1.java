@@ -12,7 +12,7 @@ public class Selenium_Grid_Chrome1 {
 
     @Test
     public void executeInAwsDocker(){
-        WebDriver driver=DriverFactory.getInstance().getDriver();
+        WebDriver driver= DriverFactory.getInstance().getDriver();
         driver.get("https://www.samsung.com/us/");
         driver.manage().window().maximize();
         LOGGER.info(driver.getTitle());

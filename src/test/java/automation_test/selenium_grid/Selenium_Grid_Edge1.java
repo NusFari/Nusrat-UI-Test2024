@@ -11,7 +11,7 @@ public class Selenium_Grid_Edge1 {
 
     @Test
     public void executeInAwsDocker(){
-        WebDriver driver= DriverFactory.getInstance().getDriver();
+        WebDriver driver=DriverFactory.getInstance().getDriver();
         driver.get("https://www.amazon.com/");
         driver.manage().window().maximize();
         LOGGER.info(driver.getTitle());
