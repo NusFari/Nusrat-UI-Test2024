@@ -32,7 +32,7 @@ public class NavigationBar {
     private final By watch = By.xpath("//li[5]/a[contains(text(),'Watches & Au')]");
     private final By MonitorMemory = By.xpath("//li[7]/a[contains(text(),'Monitor, Memory')]");
     private final By Ente27OLEDG6G60SDQHDGamingMonitor = By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com']");
-    private final By EnterGalaxyWatch6Watch6Classic = By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com']);");
+    //private final By EnterGalaxyWatchClassic=By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com'])");
     private final By EnterGalaxyWatch5Pro=By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com']");
     private final By allOffers = By.linkText("All Offers");
     private final By EnterGalaxyBuds2ProBora = By.id("gnb-search-keyword");
@@ -41,9 +41,10 @@ public class NavigationBar {
     private final By EnterGalaxyBudsFE=By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com']");
 
     private final By tablets = By.xpath("//li[6]/a[contains(text(),'Tablets & Computi')]");
-    private final By searchBar = By.xpath("//button[@class='nv00-gnb__utility-btn gnb__search-btn-js']/*[name()='svg']");
+    private final By searchBar =By.xpath("//button[@class='nv00-gnb__utility-btn gnb__search-btn-js']/*[name()='svg']");
     private final By EnterGalaxyTabS9Series=By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com']");
-
+    private final By SmartBookCoverforGalaxyTabS9abS9FEBlack=By.linkText("Smart Book Cover for Galaxy Tab S9 / Tab S9 FE, Black");
+    private final By EnterGalaxyWatchClassic=By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com']");
     private static final Logger LOGGER = LogManager.getLogger(NavigationBar.class);
     public WebDriver driver;
 
@@ -88,7 +89,7 @@ public class NavigationBar {
     }
     public Accessories clickingOnSearchBar() {
         LOGGER.debug("waiting for page to load");
-        ActOn.element(driver, ClickOnSearchBar).click();
+        ActOn.element(driver,ClickOnSearchBar).click();
         return new Accessories(driver);
     }
     public NavigationBar typeJogumanInteractiveCardforGalaxyS24Ultra(String name) {
@@ -123,7 +124,7 @@ public class NavigationBar {
     }
     public SmartBookCover navigateToShopSmartBook() {
         LOGGER.debug("clicking on Smart Book Cover for Galaxy Tab S9 Ultra, Black");
-        ActOn.element(driver, clickOnSmartBook).click();
+        ActOn.element(driver,SmartBookCoverforGalaxyTabS9abS9FEBlack).click();
         return new SmartBookCover(driver);
     }
 
@@ -248,10 +249,10 @@ public class NavigationBar {
         ActOn.element(driver, searchBar).click();
         return this;
     }
-    public NavigationBar typeGalaxyWatch6Watch6Classic(String name) {
-        LOGGER.debug("Galaxy Watch6 | Watch6 Classic:" + name);
-        ActOn.element(driver,EnterGalaxyWatch6Watch6Classic).setValue(name);
-        return this;
+    public GalaxyWatch typeGalaxywatchclassic(String name) {
+        LOGGER.debug("Galaxy Watch6" + name);
+        ActOn.element(driver,EnterGalaxyWatchClassic).setValue(name);
+        return new GalaxyWatch(driver);
     }
 
     public GalaxyWatch searching() {

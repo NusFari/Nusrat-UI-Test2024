@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 
 public class SmartBookCover extends NavigationBar {
 
-private final By SmartBookText = By.xpath("//div[1]/h1[contains(text(),'Smart Book Cover for Galaxy Tab S9 Ultra')]");
+private final By SmartBookText =By.xpath("//div[1]/h1[contains(text(),'Cover for Galaxy Tab S9 / Tab S9 FE, Black')]");
 
     private static final Logger LOGGER = LogManager.getLogger(SmartBookCover.class);
 

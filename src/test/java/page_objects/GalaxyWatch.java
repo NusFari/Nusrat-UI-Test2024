@@ -17,7 +17,7 @@ public class GalaxyWatch extends NavigationBar{
     }
 
 
-    public GalaxyWatch validateGalaxyAllPageIsLoaded(String expectedResults) {
+    public GalaxyWatch validateGalaxyAllWatchPageIsLoaded(String expectedResults) {
         LOGGER.debug("validating actualResults is :"+expectedResults);
         ActOn.wait(driver,All).waitForElementToBeVisible();
         //String actualResults = ActOn.element(driver, All).getTextValue();

@@ -16,7 +16,7 @@ public class Accessories extends NavigationBar{
     }
 
 
-    public page_objects.Accessories validateFlipAllPageIsLoaded(String expectedResults) {
+    public Accessories validateFlipAllPageIsLoaded(String expectedResults) {
         LOGGER.debug("validating actualResults is :"+expectedResults);
         ActOn.wait(driver,Accessories).waitForElementToBeVisible();
         //String actualResults = ActOn.element(driver, All).getTextValue();

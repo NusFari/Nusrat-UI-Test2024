@@ -2,7 +2,9 @@ package automation_test.samsung.com;
 
 import automation_test.BaseClass;
 import org.testng.annotations.Test;
+import page_objects.CheckOutForSmartBook;
 import page_objects.NavigationBar;
+import page_objects.SmartBookCover;
 
 public class ShopSmartBook extends BaseClass {
     @Test
@@ -11,13 +13,16 @@ public class ShopSmartBook extends BaseClass {
         new NavigationBar(driver)
                 .clickOnSearchIcon()
                 .typSmartBookCoverForGalaxyTabS9UltraBlack("Smart Book Cover for Galaxy Tab S9 Ultra, Black")
-                         .clickingOnSearchOption()
+                .clickingOnSearchOption()
                 .validateAllSmartBookIsLoaded("All");
-        new NavigationBar(driver)
+        new SmartBookCover(driver)
                 .navigateToShopSmartBook()
-                .watForPageToLoad("Smart Book Cover for Galaxy Tab S9 Ultra, Black");
-        new NavigationBar(driver)
+                .watForPageToLoad("Smart Book Cover for Galaxy Tab S9 / TabS9FE,Black");
+        new CheckOutForSmartBook(driver)
                 .navigateTOCheckoutForSmartBook();
+
+
+
 
 
 

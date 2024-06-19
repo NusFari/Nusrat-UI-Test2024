@@ -11,11 +11,15 @@ public class ShopAllWatch extends BaseClass {
         new NavigationBar(driver)
                 .mouseHoverToShoplink()
                 .navigateToShopAllWatches()
-                .validateShopAllOfersIsLoaded("Watches & Audio");
+                .validateShopAllWatchesIsLoaded("Watches & Audio");
         new NavigationBar(driver)
                 .clickonserachItem()
                 .typeGalaxyWatch5Pro("Galaxy Watch5 Pro")
                 .searches()
                 .validateShopWatch5ProIsLoaded("ALL");
     }
-}
+
+
+
+        }
+

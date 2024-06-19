@@ -6,24 +6,24 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ShopAllWatches extends NavigationBar {
+public class GalaxyWatchClassic extends NavigationBar{
+    private final By All = By.id("All");
 
-    private final By WatchesAudio = By.xpath("//div[1]/img[@alt='Watches & Audio']");
+    private static final Logger LOGGER = LogManager.getLogger(GalaxyWatchClassic.class);
 
-    private static final Logger LOGGER = LogManager.getLogger(ShopAllWatches.class);
-
-    public ShopAllWatches(WebDriver driver) {
+    public GalaxyWatchClassic(WebDriver driver) {
         super(driver);
     }
 
 
-    public ShopAllWatches validateShopAllWatchesIsLoaded(String expectedResults) {
+    public GalaxyWatchClassic validateShopAllWatchesIsLoaded(String expectedResults) {
         LOGGER.debug("validating actualResults is :" + expectedResults);
-        ActOn.wait(driver, WatchesAudio).waitForElementToBeVisible();
+        ActOn.wait(driver, All).waitForElementToBeVisible();
         //String actualResults = ActOn.element(driver, All).getTextValue();
         return this;
 
         //Assert.assertEquals(actualResults, expectedResults, "Estimated total is failed to match");
     }
 }
+
 
