@@ -8,8 +8,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class NavigationBar {
-
-
     private final By ClickOnSearchIcon = By.xpath("//div[6]/div[1][@class='nv00-gnb__utility search']//*[name()='svg']");
     private final By EnterGalaxyS4 = By.id("gnb-search-keyword");
     private final By ClickOnSearchButton = By.xpath("//button[3][@class='gnb-search__input-btn--search'][@an-ca='search']");
@@ -36,8 +34,6 @@ public class NavigationBar {
     private final By Ente27OLEDG6G60SDQHDGamingMonitor = By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com']");
     private final By EnterGalaxyWatch6Watch6Classic = By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com']);");
     private final By EnterGalaxyWatch5Pro=By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com']");
-
-
     private final By allOffers = By.linkText("All Offers");
     private final By EnterGalaxyBuds2ProBora = By.id("gnb-search-keyword");
     private final By galaxyBuds2ProBora = By.linkText("Galaxy Buds2 Pro");
@@ -47,8 +43,6 @@ public class NavigationBar {
     private final By tablets = By.xpath("//li[6]/a[contains(text(),'Tablets & Computi')]");
     private final By searchBar = By.xpath("//button[@class='nv00-gnb__utility-btn gnb__search-btn-js']/*[name()='svg']");
     private final By EnterGalaxyTabS9Series=By.xpath("//div/input[contains(@class,'input sl-search-input')][@aria-label='search Samsung.com']");
-
-
 
     private static final Logger LOGGER = LogManager.getLogger(NavigationBar.class);
     public WebDriver driver;
@@ -61,39 +55,30 @@ public class NavigationBar {
         LOGGER.debug("wait for page to load");
         ActOn.element(driver, ClickOnSearchIcon).click();
         return this;
-
     }
 
     public NavigationBar typeGalaxyS24(String name) {
         LOGGER.debug("Typing Galaxy S4:" + name);
         ActOn.element(driver, EnterGalaxyS4).setValue(name);
         return this;
-
-
     }
-
     public ShopAllPhone clickingOnSearchButton() {
         LOGGER.debug("waiting for page to load");
         ActOn.element(driver, ClickOnSearchButton).click();
         return new ShopAllPhone(driver);
 
     }
-
     public GalaxyS24 navigateToGalaxyS24() {
         LOGGER.debug("clicking on the galaxy s24 phone");
         ActOn.element(driver, GalaxyS24).click();
         return new GalaxyS24(driver);
     }
-
     public GalaxyS24Unlocked navigateToGuestCheckout() {
         LOGGER.debug("clicking on skip add icon");
         ActOn.element(driver, ClickOnSkipAddIcon).click();
         return new GalaxyS24Unlocked(driver);
 
-
     }
-
-
     public NavigationBar typeArtistRicardoCavoloInteractiveCardforGalaxyZFlip5(String name) {
         LOGGER.debug("Typing Artist Ricardo Cavolo Interactive Card for Galaxy Z Flip5:" + name);
         ActOn.element(driver, EnterArtistRicardoCavoloInteractiveCardforGalaxyZFlip5).setValue(name);
@@ -101,56 +86,41 @@ public class NavigationBar {
 
 
     }
-
     public Accessories clickingOnSearchBar() {
         LOGGER.debug("waiting for page to load");
         ActOn.element(driver, ClickOnSearchBar).click();
         return new Accessories(driver);
-
     }
-
     public NavigationBar typeJogumanInteractiveCardforGalaxyS24Ultra(String name) {
         LOGGER.debug("Joguman Interactive Card for Galaxy S24 Ultra:" + name);
         ActOn.element(driver, EnterJogumanInteractiveCardforGalaxyS24Ultra).setValue(name);
         return this;
-
-
     }
-
     public ShopAllJoguman clickingOnSearch() {
         LOGGER.debug("waiting for page to load");
         ActOn.element(driver, ClickOnSearchBar).click();
         return new ShopAllJoguman(driver);
-
     }
-
     public JogumanCardForGalaxy navigateToJogumanCardGalaxy() {
         LOGGER.debug("clicking on the Joguman s24 ultra");
         ActOn.element(driver, JogumanS24Ultra).click();
         return new JogumanCardForGalaxy(driver);
     }
-
     public JogumanCardForGalaxy navigateTOCheckoutForJoguman() {
         LOGGER.debug("clicking on add to cart icon");
         ActOn.element(driver, clickOnAddToCart).click();
         return new JogumanCardForGalaxy(driver);
-
-
     }
-
     public NavigationBar typSmartBookCoverForGalaxyTabS9UltraBlack(String name) {
         LOGGER.debug("Typing Book Cover for Galaxy Tab S9 Ultra Black:" + name);
         ActOn.element(driver, EnterSmartBookCoverforGalaxyTabS9UltraBlack).setValue(name);
         return this;
     }
-
     public ShopAllSmartBook clickingOnSearchOption() {
         LOGGER.debug("waiting for page to load");
         ActOn.element(driver, ClickOnSearch).click();
         return new ShopAllSmartBook(driver);
-
     }
-
     public SmartBookCover navigateToShopSmartBook() {
         LOGGER.debug("clicking on Smart Book Cover for Galaxy Tab S9 Ultra, Black");
         ActOn.element(driver, clickOnSmartBook).click();
@@ -161,10 +131,7 @@ public class NavigationBar {
         LOGGER.debug("clicking on add to cart icon");
         ActOn.element(driver, clickOnAddToCart).click();
         return new CheckOutForSmartBook(driver);
-
-
     }
-
     public NavigationBar typeMusicFrameDolbyAtmosSmartSpeaker(String name) {
         LOGGER.debug("Typing Music FrameDolby Atmos Smart Speaker:" + name);
         ActOn.element(driver, EnterMusicFrameDolbyAtmosSmartSpeaker).setValue(name);
@@ -191,7 +158,6 @@ public class NavigationBar {
 
 
     }
-
     public NavigationBar mouseHoverToShop() {
         LOGGER.debug("Mouse Hover to the Shop Link");
         ActOn.element(driver, shopLink).mouseHover();
@@ -209,35 +175,29 @@ public class NavigationBar {
         ActOn.element(driver, EnterGalaxyBuds2ProBora).setValue(name);
         return this;
 
-
     }
-
     public GalaxyBuds search() {
         LOGGER.debug("waiting for page to load");
         ActOn.element(driver, ClickOnSearch).click();
         return new GalaxyBuds(driver);
 
     }
-
     public GalaxyBudsPro navigateTOGalaxyBudsPro() {
         LOGGER.debug("clicking on add to cart icon");
         ActOn.element(driver, galaxyBuds2ProBora).click();
         return new GalaxyBudsPro(driver);
 
     }
-
     public NavigationBar mouseHoverToShoplink() {
         LOGGER.debug("Mouse Hover to the Shop Link");
         ActOn.element(driver, Shop).mouseHover();
         return this;
     }
-
     public ShopAllWatches navigateToShopAllWatches() {
         LOGGER.debug("Clicking on the All Offers Link from the Navigation Bar");
         ActOn.element(driver, watch).click();
         return new ShopAllWatches(driver);
     }
-
     public NavigationBar mouseHoverToShopWord() {
         LOGGER.debug("Mouse Hover to the Shop Link");
         ActOn.element(driver, Shopword).mouseHover();
@@ -290,7 +250,7 @@ public class NavigationBar {
     }
     public NavigationBar typeGalaxyWatch6Watch6Classic(String name) {
         LOGGER.debug("Galaxy Watch6 | Watch6 Classic:" + name);
-        ActOn.element(driver, Ente27OLEDG6G60SDQHDGamingMonitor).setValue(name);
+        ActOn.element(driver,EnterGalaxyWatch6Watch6Classic).setValue(name);
         return this;
     }
 
