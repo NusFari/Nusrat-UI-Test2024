@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 public class Accessories extends NavigationBar{
     private final By Accessories=By.id("Accessories");
 
-    private static final Logger LOGGER= LogManager.getLogger(ShopAllPhone.class);
+    private static final Logger LOGGER= LogManager.getLogger(Accessories.class);
 
     public Accessories(WebDriver driver) {
         super(driver);

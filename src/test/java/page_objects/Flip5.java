@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 public class Flip5 extends NavigationBar {
     private final By Flip5Text = By.xpath("//div[1]/h1[contains(text(),'Artist Ricardo Cavolo Interactive')]");
 
-    private static final Logger LOGGER = LogManager.getLogger(GalaxyS24.class);
+    private static final Logger LOGGER = LogManager.getLogger(Flip5.class);
 
     public Flip5(WebDriver driver) {
         super(driver);
