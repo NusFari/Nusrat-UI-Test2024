@@ -327,7 +327,7 @@ public class NavigationBar {
     }
 
     public NavigationBar typeGalaxyBudsFE(String name) {
-        LOGGER.debug("Galaxy Tab S9 Series:" + name);
+        LOGGER.debug("Galaxy budsFE:" + name);
         ActOn.element(driver,EnterGalaxyBudsFE).setValue(name);
         return this;
     }

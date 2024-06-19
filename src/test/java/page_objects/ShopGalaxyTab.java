@@ -10,7 +10,7 @@ public class ShopGalaxyTab extends NavigationBar{
     private final By All=By.id("ALL");
 
     //private final By SaveUp = By.xpath("//h1[contains(text(),'Save up to ')]");
-    private static final Logger LOGGER= LogManager.getLogger(ShopAllWatch5Pro.class);
+    private static final Logger LOGGER= LogManager.getLogger(ShopGalaxyTab.class);
 
     public ShopGalaxyTab(WebDriver driver) {
         super(driver);

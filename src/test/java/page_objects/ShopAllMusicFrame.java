@@ -10,7 +10,7 @@ public class ShopAllMusicFrame extends NavigationBar{
     private final By All=By.id("ALL");
 
     //private final By SaveUp = By.xpath("//h1[contains(text(),'Save up to ')]");
-    private static final Logger LOGGER=LogManager.getLogger(ShopAllPhone.class);
+    private static final Logger LOGGER=LogManager.getLogger(ShopAllMusicFrame.class);
 
     public ShopAllMusicFrame(WebDriver driver) {
         super(driver);

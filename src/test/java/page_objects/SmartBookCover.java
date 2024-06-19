@@ -10,7 +10,7 @@ public class SmartBookCover extends NavigationBar {
 
 private final By SmartBookText = By.xpath("//div[1]/h1[contains(text(),'Smart Book Cover for Galaxy Tab S9 Ultra')]");
 
-    private static final Logger LOGGER = LogManager.getLogger(JogumanCardForGalaxy.class);
+    private static final Logger LOGGER = LogManager.getLogger(SmartBookCover.class);
 
     public SmartBookCover(WebDriver driver) {
         super(driver);
