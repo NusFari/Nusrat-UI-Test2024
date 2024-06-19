@@ -1,12 +1,19 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="automation_test" verbose="1">
+<suite name="automation_test" verbose="10">
     <test name="selenium_grid">
         <classes>
 
             <class name="automation_test.samsung.com.ShopAllPhone"/>
-
-
+            <class name="automation_test.samsung.com.ShopFlip5"/>
+            <class name="automation_test.samsung.com.ShopAllMonitors"/>
+            <class name="automation_test.samsung.com.ShopAllOffer"/>
+            <class name="automation_test.samsung.com.ShopAllWatch"/>
+            <class name="automation_test.samsung.com.ShopGalaxyBuds"/>
+            <class name="automation_test.samsung.com.ShopJoguman"/>
+            <class name="automation_test.samsung.com.ShopMusicFrame"/>
+            <class name="automation_test.samsung.com.ShopSmartBook"/>
+            <class name="automation_test.samsung.com.TabletsComputing"/>
 
         </classes>
     </test>
